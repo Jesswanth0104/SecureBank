@@ -11,7 +11,7 @@ public class DBConnection {
             "jdbc:mysql://localhost:3306/securebank";
 
     private static final String USER = "root";
-    private static final String PASSWORD = "Dhivagar@0503";
+    private static final String PASSWORD = "Jeeva@2615";
 
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(URL, USER, PASSWORD);
